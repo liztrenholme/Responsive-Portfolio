@@ -2,8 +2,6 @@ body {
 	background-image: url("../images/concrete_seamless.png");
 	background-attachment: fixed;
 	background-repeat: repeat;
-/*	width: 960px;
-	margin: auto; */
 }
 
 header {
@@ -268,4 +266,26 @@ footer {
 	text-align: center;
 	padding: 20px 100px;
 	clear: both;
+	position: sticky;
+}
+
+/* Mobile optimization */
+@media only screen and (max-width: 980px) {
+	.main, .contactform, .gallery {
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.main, .contactform, .gallery, ul {
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	header {
+		position: static;
+	}
+	.main, .contactform, .gallery {
+		
+	}
 }
