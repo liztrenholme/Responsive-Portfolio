@@ -272,12 +272,14 @@ footer {
 /* Mobile optimization */
 @media only screen and (max-width: 980px) {
 	.main, .contactform, .gallery {
+		width: 100%;
 	}
 }
 
 @media only screen and (max-width: 768px) {
 	.main, .contactform, .gallery, ul {
 		display: inline;
+		width: 100%;
 	}
 }
 
@@ -286,6 +288,6 @@ footer {
 		position: static;
 	}
 	.main, .contactform, .gallery {
-		
+		width: 100%;
 	}
 }
