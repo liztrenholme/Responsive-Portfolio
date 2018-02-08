@@ -266,6 +266,7 @@ footer {
 	text-align: center;
 	padding: 20px 100px;
 	clear: both;
+	height: 40px;
 	position: sticky;
 }
 
